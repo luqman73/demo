@@ -12,4 +12,4 @@ $notes = $db->query('SELECT * FROM notes WHERE user_id = 1')->get();
 // $query = "SELECT * FROM users WHERE id = ?";
 // $posts = $db->query($query, [$id])->fetchAll();
 
-require "views/notes.view.php";
+require "views/notes/index.view.php";
